@@ -1,0 +1,14 @@
+package com.example.form.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class Formcontroller {
+
+	@GetMapping("/form")
+	public String showform() {
+		return "form";
+	}
+	
+}
